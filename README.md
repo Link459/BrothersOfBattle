@@ -1,2 +1,2 @@
 # brothers of battle
-original by Italy/jngo102/bob fred
+original and port by Italy/jngo102/bob fred
