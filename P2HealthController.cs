@@ -7,7 +7,6 @@ namespace BrothersOfBattle
         private HealthManager _oroHealth;
         private HealthManager _matoHealth;
         private HealthManager _sheoHealth;
-        private HealthManager _slyHealth;
 
         private int _healthPool = 1;
         
