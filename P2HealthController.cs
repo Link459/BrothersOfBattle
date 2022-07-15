@@ -16,7 +16,6 @@ namespace BrothersOfBattle
             _oroHealth = GetComponent<HealthManager>();
             _matoHealth = GameObject.Find("Mato").GetComponent<HealthManager>();
             _sheoHealth = GameObject.Find("Sheo Boss(Clone)(Clone)").GetComponent<HealthManager>();
-            _slyHealth = GameObject.Find("Sly Boss (Clone)(Clone)").GetComponent<HealthManager>();
 
             On.HealthManager.TakeDamage += HealthManagerTakeDamage;
         }
