@@ -27,7 +27,6 @@ namespace BrothersOfBattle
             {
                 ("GG_Painter", "Battle Scene/Sheo Boss"),
                 ("GG_Painter", "painting_nailsmith_0001_paint2"),
-                ("GG_Sly", "Battle Scene/Sly Boss"),
             };
         }
         
@@ -36,7 +35,6 @@ namespace BrothersOfBattle
             Log("Storing GameObjects");
             PreloadedGameObjects.Add("Sheo", preloadedObjects["GG_Painter"]["Battle Scene/Sheo Boss"]);
             PreloadedGameObjects.Add("Painting", preloadedObjects["GG_Painter"]["painting_nailsmith_0001_paint2"]);
-            PreloadedGameObjects.Add("Sly", preloadedObjects["GG_Sly"]["Battle Scene/Sly Boss"]);
 
             ModHooks.BeforeSavegameSaveHook += BeforeSaveGameSave;
             ModHooks.AfterSavegameLoadHook += SaveGame;
