@@ -16,6 +16,8 @@ namespace BrothersOfBattle
         
         public static readonly Dictionary<string, GameObject> PreloadedGameObjects = new Dictionary<string,GameObject>();
 
+        
+
         private LocalSettings _localSettings = new();
         public LocalSettings LocalSettings => _localSettings;
 
