@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Modding;
+using System;
 
 namespace BrothersOfBattle
 {
@@ -18,5 +19,16 @@ namespace BrothersOfBattle
             get => _statueStateBrothers; 
             set => _statueStateBrothers = value; 
         }
+    }
+    public sealed partial class globalsettings : IGlobalSettings<GlobalSettings>
+    {
+        public static GlobalSettings GlobalSettings { get; private set; } = new();
+        public void OnLoadGlobal(GlobalSettings s) => GlobalSettings = s;
+        public GlobalSettings OnSaveGlobal() => GlobalSettings;
+    }
+    public sealed class GlobalSettings
+    {
+        public static bool healthshare = false;
+        public static bool sly = false;
     }
 }

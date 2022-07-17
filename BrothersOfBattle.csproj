@@ -9,6 +9,7 @@
     <LocalRefs>References</LocalRefs>
     <!-- The folder that exports will be generated in -->
     <ExportDir>Output</ExportDir>
+    <Platforms>AnyCPU;x64</Platforms>
   </PropertyGroup>
   <PropertyGroup>
     <RootNamespace>BrothersOfBattle</RootNamespace>
@@ -71,8 +72,14 @@
     <Reference Include="Newtonsoft.Json">
       <HintPath>$(HollowKnightRefs)/Newtonsoft.Json.dll</HintPath>
     </Reference>
+    <Reference Include="Osmi">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Hollow Knight\hollow_knight_Data\Managed\Mods\Osmi\Osmi.dll</HintPath>
+    </Reference>
     <Reference Include="PlayMaker">
       <HintPath>$(HollowKnightRefs)/PlayMaker.dll</HintPath>
+    </Reference>
+    <Reference Include="Satchel">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Hollow Knight\hollow_knight_Data\Managed\Mods\Satchel\Satchel.dll</HintPath>
     </Reference>
     <Reference Include="System.ComponentModel.Composition">
       <HintPath>$(HollowKnightRefs)/System.ComponentModel.Composition.dll</HintPath>

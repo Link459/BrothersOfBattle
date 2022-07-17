@@ -4,9 +4,9 @@ namespace BrothersOfBattle
 {
     public class P2HealthController : MonoBehaviour
     {
-        private HealthManager _oroHealth;
-        private HealthManager _matoHealth;
-        private HealthManager _sheoHealth;
+        internal static HealthManager _oroHealth;
+        internal static HealthManager _matoHealth;
+        internal static HealthManager _sheoHealth;
 
         private int _healthPool = 1;
         
